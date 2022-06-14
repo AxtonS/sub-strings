@@ -6,7 +6,11 @@ If you don't have Ruby installed you can run this app in your browser at: https:
 ## Finished, things I learned  
 
 -Learned to use regex to split string into an array of only words  
--Found the #include? method which made the rest of the project super straightforward, no hitches from there.
+-Found the #include? method which made the rest of the project super straightforward, no hitches from there  
+
+## Updates  
+
+-Implemented functionality for user to enter their own list of words to use as the dictionary  
 
 ## my initial plan  
 

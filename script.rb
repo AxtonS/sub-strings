@@ -1,4 +1,9 @@
-dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+puts "Enter a few words, a sentence, or maybe even text from your favorite book that you would like turned into a dictionary of words. 
+Otherwise you can just hit enter to use the default provided dictionary:"
+dictionary = gets.chomp.downcase.split(/[^[[:word:]]]+/)
+if dictionary == ""
+  dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+end
 
 def substrings(dictionary)
   count = {}
