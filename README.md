@@ -1,6 +1,7 @@
 # sub-strings  
 
 Compares an input to a dictionary of words to count occurrences  
+If you don't have Ruby installed you can run this app in your browser at: https://replit.com/@AxtonSmith/sub-strings#README.md  
 
 ## Finished, things I learned  
 
